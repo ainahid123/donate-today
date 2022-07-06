@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.link-button {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #e25454;
+}
+
+.top-section {
+    background-image: url('images/donation10.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+}
+
+.top-section div {
+    text-align: center;
+    padding: 150px 350px;
+    color: white;
+}
+
+.top-section div h1 {
+    font-size: 70px;
+    margin-bottom: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 900px;
+}
+
+.top-section div p {
+    margin: 30px 0 50px;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.donate-section {
+    text-align: center;
+}
+
+.donate-section #donate-today {
+    margin-top: 50px;
+    padding: 50px 300px;
+}
+
+.donate-section #donate-today h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.donate-section #donate-today p {
+    font-size: large;
+    color: #474444;
+}
+
+.donate-section #donate-dollar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+}
+
+.donate-section #donate-dollar p {
+    font-weight: 900;
+    font-size: 40px;
+    color: #5e5b5b;
+    padding: 30px 20px;
+}
+
+.donate-section #donate-selected {
+    border: 2px solid lightcoral;
+    color: lightcoral;
+    border-radius: 5px;
+    padding: 30px 20px;
+    background-color: #f0dede;
+}
+
+.donate-section #donate-input {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.donate-section input {
+    border: none;
+    border-bottom: 1px solid #888787;
+    text-align: center;
+    padding: 10px;
+    width: 800px;
+    font-size: 18px;
+    outline: none;
+}
+
+.donatePlan-section .donate-plan {
+    padding: 100px 300px 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.donatePlan-section .donate-plan h1 {
+    font-size: 40px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+}
+
+.donatePlan-section .plan-card {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 100px;
+}
+
+.donatePlan-section .plan-card .card {
+    border: none;
+    margin: 20px;
+    padding: 80px 30px;
+}
+
+.donatePlan-section .plan-card .card img,
+h1 {
+    margin-bottom: 20px;
+}
+
+.donatePlan-section .plan-card #card-0 {
+    background-color: antiquewhite;
+}
+
+.donatePlan-section .plan-card #card-1 {
+    background-color: aqua;
+}
+
+.donatePlan-section .plan-card #card-2 {
+    background-color: aquamarine;
+}
+
+.gallary-section .gallary-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 100px;
+}
+
+.gallary-section .gallary-image .flex-card {
+    color: #48484b;
+    text-align: justify;
+    background-color: #f5eeee;
+    width: 350px;
+    border-radius: 6px 6px 0 0;
+    box-shadow: 1px 1px 50px #bebcbc;
+}
+
+.gallary-section .gallary-image .flex-card img {
+    width: 350px;
+    border-radius: 6px 6px 0 0;
+}
+
+.gallary-section .gallary-image .flex-card p {
+    padding: 20px;
+}
+
+.gallary-section h1 {
+    padding: 1px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.getUpdate-section {
+    padding: 20px 300px;
+    margin-bottom: 100px;
+}
+
+.getUpdate-section .get-update {
+    text-align: center;
+    padding: 60px 120px;
+}
+
+.getUpdate-section .get-update h1 {
+    font-size: 40px;
+}
+
+.getUpdate-section .get-update p {
+    font-size: 18px;
+}
+
+.getUpdate-section .input-query {
+    text-align: center;
+    padding: 70px 90px;
+    background-color: antiquewhite;
+}
+
+.getUpdate-section .input-query #input-eamil {
+    padding: 15px;
+    width: 250px;
+    outline: none;
+    border: none;
+    background-color: #dddbdb;
+    border-radius: 6px 0px 0px 6px;
+    font-weight: 900;
+}
+
+.getUpdate-section .input-query #submit-btn {
+    padding: 15px 5px;
+    width: 150px;
+    outline: none;
+    border: none;
+    background-color: #e94c4c;
+    border-radius: 0px 6px 6px 0px;
+    color: white;
+    font-weight: 900;
+    margin: -5px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #474444;
+}
+
+footer h1 {
+    font-size: 40px;
+    font-weight: 800px;
+    color: tomato;
+}
+
+footer p {
+    font-size: 22px;
+    color: white;
+}
